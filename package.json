@@ -1,0 +1,31 @@
+{
+  "name": "bootstrap-blank",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-sass": "node-sass styles/scss/main.scss styles/css/style.css --watch",
+    "watch": "node-sass styles/scss/main.scss styles/css/style.css --watch",
+    "cs-watch": "sass scss/main.scss css/style.css --watch --no-source-map",
+    "cs-compile": "sass scss/main.scss css/style.css --no-source-map",
+    "cs-compress": "sass scss/main.scss css/style.css --style=compressed --no-source-map",
+    "cs-prefix": "postcss css/style.css -o css/style.css --use autoprefixer -b 'last 4 versions' --no-source-map",
+    "cs-build": "npm-run-all cs-compile cs-compress cs-prefix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "bootstrap": "^5.3.0",
+    "create-scss": "^2.7.3",
+    "font-awesome": "^4.7.0",
+    "npm-watch": "^0.11.0",
+    "sass": "^1.62.1",
+    "scss": "^0.2.4"
+  },
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
