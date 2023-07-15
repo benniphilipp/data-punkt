@@ -21,3 +21,5 @@ https://www.npmjs.com/package/npm-watch
 https://www.npmjs.com/package/font-awesome
 'npm i font-awesome'
 
+https://www.npmjs.com/package/bootstrap/v/5.0.1
+'npm i bootstrap@5.0.1'

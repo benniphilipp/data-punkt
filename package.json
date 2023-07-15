@@ -1,11 +1,11 @@
 {
-  "name": "bootstrap-blank",
+  "name": "data-punkt",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile-sass": "node-sass styles/scss/main.scss styles/css/style.css --watch",
-    "watch": "node-sass styles/scss/main.scss styles/css/style.css --watch",
+    "compile-sass": "node-sass scss/main.scss styles/css/style.css --watch",
+    "watch": "node-sass scss/main.scss styles/css/style.css --watch",
     "cs-watch": "sass scss/main.scss css/style.css --watch --no-source-map",
     "cs-compile": "sass scss/main.scss css/style.css --no-source-map",
     "cs-compress": "sass scss/main.scss css/style.css --style=compressed --no-source-map",
@@ -17,15 +17,23 @@
   "license": "ISC",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",
-    "bootstrap": "^5.3.0",
+    "bootstrap": "^5.0.1",
     "create-scss": "^2.7.3",
     "font-awesome": "^4.7.0",
     "npm-watch": "^0.11.0",
     "sass": "^1.62.1",
     "scss": "^0.2.4"
   },
-  "description": "",
+  "description": "1. git branch  2. git branch --list 3. git checkout",
   "devDependencies": {
     "node-sass": "^9.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benniphilipp/data-punkt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/benniphilipp/data-punkt/issues"
+  },
+  "homepage": "https://github.com/benniphilipp/data-punkt#readme"
 }
