@@ -19406,6 +19406,9 @@ section.header {
     visibility: hidden;
     opacity: 0;
     transition: visibility 0s linear 10s, opacity 0.3333s linear; }
+    .menu .nav-link small, .menu .nav-link .small {
+      font-size: 22px;
+      font-weight: 400; }
     .menu .nav-link:hover {
       color: #6c757d;
       transition: all 0.5s ease; }
@@ -19483,6 +19486,15 @@ ul .list-group-item.sozial.show {
   visibility: visible;
   opacity: 1;
   transition: all 0.5s ease; }
+
+footer ul {
+  list-style: none;
+  padding: 0; }
+  footer ul li a {
+    text-decoration: none; }
+    footer ul li a:hover {
+      color: #ED0342 !important;
+      transition: all 0.5s ease; }
 
 .card {
   position: relative;
