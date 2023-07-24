@@ -9,6 +9,10 @@
 2. git commit -m
 3. git push --set-upstream origin
 
+# NPM RUN
+
+'npm run watch'
+
 # Install
 
 https://www.npmjs.com/package/bootstrap

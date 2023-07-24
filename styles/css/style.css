@@ -19322,10 +19322,17 @@ h1, .h1, .h1, h2, .h2, .h2, h3, .h3, .h3, h4, .h4, .h4, h5, .h5, .h5, h6, .h6, .
   font-weight: 700; }
 
 a span {
-  color: #ED0342; }
+  color: #ED0342 !important; }
 
 .display-7 {
   font-size: 1rem; }
+
+small, .small {
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.text-primary {
+  color: #ED0342 !important; }
 
 section.header {
   box-shadow: 0 0px 13px -2px black;
@@ -19467,7 +19474,7 @@ ul .list-group-item.sozial {
     transform: translate(-50%, -50%); }
     ul .list-group-item.sozial a .fa-brands {
       font-size: 40px;
-      color: #ED0342; }
+      color: #ED0342 !important; }
   ul .list-group-item.sozial:hover .fa-brands:hover {
     color: #1AB9ED;
     transition: all 0.5s ease; }
@@ -19476,6 +19483,17 @@ ul .list-group-item.sozial.show {
   visibility: visible;
   opacity: 1;
   transition: all 0.5s ease; }
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #221B33;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem; }
 
 .hero-banner {
   background: url(../../image/bg.png) no-repeat;
@@ -19536,7 +19554,7 @@ h3.headline-number.one::before, .headline-number.one.h3::before {
   height: 55px;
   display: inline-block;
   vertical-align: middle;
-  margin-bottom: 1.4rem; }
+  margin-right: 1.4rem; }
 
 h3.headline-number.tow::before, .headline-number.tow.h3::before {
   content: "";
